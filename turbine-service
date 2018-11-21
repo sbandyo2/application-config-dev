@@ -1,5 +1,10 @@
 spring.application.name=turbine-service
-server.port=8089
+server.port=8989
+
+turbine.aggregator.clusterConfig=READ
+turbine.aggregator.appConfig=READ
+
+logging.level=INFO
  
 eureka.client.region = default
 eureka.client.registryFetchIntervalSeconds = 5
